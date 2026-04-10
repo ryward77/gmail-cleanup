@@ -1,0 +1,22 @@
+# Credentials and tokens - NEVER commit these
+credentials.json
+token.json
+
+# Data and output files (large / generated)
+emails.json
+trashed_ids.json
+trashed_smart.json
+needs_reply_summary.md
+
+# Log files
+*.txt
+
+# Python virtual environments
+.venv/
+mail_triage_env/
+
+# Claude internal
+.claude/
+
+# macOS
+.DS_Store
